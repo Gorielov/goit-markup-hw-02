@@ -1,3 +1,78 @@
 :root {
+    --primary-text-color: #757575;
+    --headers-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03;
+}
+
+/* Global style settings */
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* Logo */
+.logo {
+    color: #000000;
+    font-family: Raleway,sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.logo.firstchars {
+    color: #2196F3;
+}
+
+/* Navigation in header */
+.site-nav .link {
+    color: var(--headers-text-color);
+    font-weight: 500;
+    letter-spacing: 0.02;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.contacts.link {
+    color: var(--primary-text-color);
+}
+
+/* Hero */
+.hero-header {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 0.06;
     
 }
+
+/* Section */
+.benefits .benefits-header {
+    font-weight: 700;
+}
+
+.benefits .benefits-text {
+    font-weight: 400;
+    line-height: 1.71;
+}
+
+/* Roboto шрифт робото 400, 500,700, 900 
+Raleway для лого 700
+
+цвет фона везде background: #FFFFFF;
+
+*/
