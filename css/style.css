@@ -3,6 +3,7 @@
     --headers-text-color: #212121;
     --accent-color: #2196F3;
     --primary-white-color: #ffffff;
+    --back-color:#2F303A;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.17;
-    letter-spacing: 0.03;
+    letter-spacing: 0.03em;
 }
 
 /* Global style settings */
@@ -39,11 +40,13 @@ body {
 .site-nav .link {
     color: var(--headers-text-color);
     font-weight: 500;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.footer-nav .link:hover,
+.footer-nav .link:focus{
     color: var(--accent-color);
 }
 
@@ -52,11 +55,16 @@ body {
 }
 
 /* Hero */
+.hero {
+    background-color: var(--back-color);
+}
+
 .hero-header {
+    color:  var(--primary-white-color);
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
-    letter-spacing: 0.06;
+    letter-spacing: 0.06em;
     
 }
 
@@ -70,9 +78,37 @@ body {
     line-height: 1.71;
 }
 
-/* Roboto шрифт робото 400, 500,700, 900 
-Raleway для лого 700
+/* Our work */
+.block-header {
+    font-size: 36px;
+    font-weight: 700;
+}
 
-цвет фона везде background: #FFFFFF;
+/* Team */
+.team-names {
+    font-size: 16px;
+    font-weight: 500;
+}
 
-*/
+.team-roles {
+    font-size: 16px;
+
+}
+
+/* Footer */
+.footer-section {
+    background-color: var(--back-color);
+}
+
+.footer-nav {
+    line-height: 1.71;
+}
+
+footer .logo,
+.adress.link {
+    color: var(--primary-white-color);
+}
+
+.footer-cont.link {
+    color: rgba(255, 255, 255, 0.6);
+}
