@@ -114,6 +114,7 @@ body {
 }
 
 /* Portfolio.html */
+
 .project-header {
     color: var(--headers-text-color);
     font-size: 18px;
@@ -164,4 +165,8 @@ body {
 .link:hover,
 .link:focus {
     color: var(--accent-color);
+}
+
+.hidden-header {
+    visibility: hidden;
 }
